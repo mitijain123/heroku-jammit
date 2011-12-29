@@ -18,6 +18,7 @@
 =end
 
 begin
+  require 'rubygems'
   require 'jammit'
 rescue LoadError
   raise "jammit gem is missing.  Please install jammit: sudo gem install jammit"
